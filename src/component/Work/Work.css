@@ -1,0 +1,22 @@
+.Work{
+    width:100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+.Work .Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.2rem;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width:940px){
+    .Work{
+        margin: 1rem 0;
+    }
+    .Work .Container{
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}

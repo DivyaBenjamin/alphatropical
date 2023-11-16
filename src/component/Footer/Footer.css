@@ -1,0 +1,38 @@
+.Footer{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+}
+.Footer .Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+.Footer .Col{
+    margin: auto;
+}
+.Footer h3{
+    margin: .8rem 0;
+}
+.Footer p{
+    margin: .4rem 0;
+}
+.Footer .Social{
+    text-align: center;
+}
+.Footer .Icon{
+    font-size: 2rem;
+    margin: 2rem 3rem;
+    color: #5651e5;
+}
+
+
+@media screen and (max-width: 940px){
+    .Footer .Container{
+        grid-template-columns: repeat(2,1fr);
+        gap: .5rem;
+    }
+    .Footer .Icon{
+        margin: 1rem;
+    }
+}
